@@ -1,0 +1,120 @@
+*{
+	font-family:Verdana, Serif Sans;
+/*	border-style:solid;
+	border-width:3px;
+*/
+}
+
+p{
+	color:#FFF;
+	font-size: 18pt;
+}
+
+body{
+	border: 2px;
+	margin: 0;
+	font-size: 13pt;
+	text-align: center;
+	background: linear-gradient(#444,#000);
+	background-size: cover;
+	height: 100%;
+}
+
+#beginGame{
+     font-size:40px;
+     box-shadow: 4px 5px 6px 0px #888;
+     background-color: #FF8587;
+     text-shadow: 2px 2px 2px #FF50B4;
+     padding-left: 25px;
+     padding-right: 25px;
+     
+}
+
+#showWord{
+	color:red;
+	display: none;
+}
+
+button, input{
+	transition: background .5s, font-size .5;
+}
+
+#check, #help{
+	width:120px;
+	height:40px;
+	background: #364fb2;
+	color: #FFF;
+	border-radius: 10px;
+	font-family: Arial;
+	font-size: 20pt;
+	box-shadow: 2px 2px 5px #000, inset 10px 10px 20px #03295c;
+	cursor: pointer;
+	text-shadow: 2px 2px 4px #6d3007
+}
+#check:hover, #help:hover{
+	background: linear-gradient(#33AADD,#5533BB);
+	font-size: 21pt;
+}
+
+input[type^='text']{
+	text-align: center;
+	text-transform: uppercase;
+	color: #15691d;
+	font-size: 40px;
+	font-family: Arial;
+	border-radius: 15px;
+	border: 4px solid #0e2343;
+	border-right: 2px solid #0e2343;
+	border-bottom: 2px solid #0e2343;
+	box-shadow: inset 4px 4px 15px #666;
+	min-width: 80px;
+	min-height: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+input[type^='text']:hover{
+	background: #FFE
+}
+
+
+button, input[type^='submit']{
+	font-size: 20pt;
+	border-radius: 10px;
+	border: 0;
+	color: #FFF;
+	background-color: #FF8587;
+    text-shadow: 2px 2px 2px #FF50B4;
+	box-shadow: 1px 1px 3px #888;
+}
+
+button, input[type^='submit']{
+	transition: background .5s, font-size .5s;
+}
+button:hover, input[type^='submit']:hover{
+	background:#FF6677;
+	font-size:19pt;	
+}
+
+#beginGame:hover{
+	font-size:25pt;
+}
+
+#addNewWord{
+	font-size:18pt;
+	color:#E4F;
+}
+
+.keyboard{
+	font-family:Arial;
+	font-size:25pt;
+	margin: 10px 10px 5px;
+	min-width:40px;
+	padding: 5px, 5px;
+}
+
+span{
+	font-family:Arial;
+	color:#FFF;
+}
